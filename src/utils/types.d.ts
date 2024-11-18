@@ -1,10 +1,9 @@
-export interface SWcontext {
+export interface SWContextValue {
     page: string,
-    changePage: (page:string) => void,
+    changePage: (page: string) => void,
 }
 
-export interface HeroInfo{
-
+export interface HeroInfo {
     name: string,
     gender: string,
     birth_year: string,

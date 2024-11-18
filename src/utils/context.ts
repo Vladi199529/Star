@@ -1,7 +1,7 @@
 import {createContext} from "react";
-import {SWcontextValue} from "";
+import {SWContextValue} from "./types";
 
 export const SWContext = createContext<SWContextValue>({
     page: 'Home',
-    changePage: (page:string) => console.log(page),
+    changePage: (page: string) => console.log(page),
 });
